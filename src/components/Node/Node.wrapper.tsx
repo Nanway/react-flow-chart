@@ -139,6 +139,7 @@ export const NodeWrapper = ({
       onStart={onStart}
       onDrag={onDrag}
       disabled={config.readonly}
+      cancel=".shadowrealm"
     >
       <Component
         config={config}

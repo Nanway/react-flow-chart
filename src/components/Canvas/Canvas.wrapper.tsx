@@ -86,6 +86,7 @@ export class CanvasWrapper extends React.Component<ICanvasWrapperProps, IState> 
             grid={[1, 1]}
             onDrag={(event, data) => onDragCanvas({ config, event, data })}
             disabled={config.readonly}
+            cancel=".shadowrealm"
           >
             <ComponentInner
               config={config}
